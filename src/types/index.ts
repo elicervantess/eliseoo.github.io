@@ -1,0 +1,12 @@
+// Global type definitions
+
+export interface NavItem {
+  title: string;
+  href: string;
+  disabled?: boolean;
+  external?: boolean;
+}
+
+export interface NavConfig {
+  mainNav: NavItem[];
+}
